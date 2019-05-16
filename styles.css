@@ -1,0 +1,39 @@
+
+table.table {
+  width: auto;
+  margin: 0 auto;
+}
+
+tr td {
+  padding: 10px;
+}
+
+.color {
+  background: rgb(12,68,114);
+  color: #fff;
+}
+
+.rotate {
+  transform: rotate(270deg);
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  width: 1.5em;
+}
+
+td.name {
+  position: relative;
+}
+
+.abs {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+tr:nth-child(even) {
+  background: #eee;
+}
+tr:nth-child(odd) {
+  background: #FFF;
+}
